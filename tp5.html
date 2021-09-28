@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulaire inscription</title>
+</head>
+
+<body>
+  <h1>Inscription</h1>
+  <form>
+    <p>
+      <label for="nom">Nom : </label>
+      <input id="nom" type="text" placeholder="Veuillez entrer votre nom" />
+
+    </p>
+    <p>
+      <label for="prenom">Prénom : </label>
+      <input id="prenom" type="text" placeholder="Veuillez entrer votre prénom"/>
+
+    </p>
+    <p>
+      <label for="Lieu">Lieu de naissance : </label>
+      <input id="Lieu" type="text" placeholder="Lieu de naissance"/>
+
+    </p>
+    <p>
+      <label for="date">Date de naissance : </label>
+      <input id="date" type="date" />
+
+    </p>
+    <p>
+      <label>
+        Pays d'origine:
+      </label>
+      <select>
+        <option>France</option>
+        <option>Italie</option>
+        <option>Maroc</option>
+        <option>République Tchèque</option>
+      </select>
+    </p>
+
+    <p>
+      <label>
+        Civilité:
+      </label>
+      <select>
+        <option>Mme</option>
+        <option>Mr</option>
+
+      </select>
+    </p>
+
+    <p>
+      <label for="moyenne">Moyenne bac : </label>
+      <input type="number" id="moyenne" />
+    </p>
+
+    <p>
+      <label>
+        Formation :
+      </label>
+      <select>
+        <option>Littérature</option>
+        <option>Sciences math</option>
+        <option>Sciences de vie et de terre</option>
+        <option>Sciences physiques</option>
+      </select>
+    </p>
+
+    <p>
+      <label>Autres formations :</label><br />
+        
+      <input type="checkbox" />Chimie<br />
+      
+      <input type="checkbox" />Art et Culture<br />
+      
+      <input type="checkbox" />Design intérieur<br />
+
+      <input type="checkbox" />Architecture<br />
+      
+
+    </p>
+
+    <p>
+      <label for="Email"></label>Email : </label>
+      <input id="email" type="email" placeholder="Ex : jojo@gmail.com" />
+    </p>
+
+    <p>
+      <label for="num"></label>Téléphone : </label>
+      <input id="num" type="number" maxlength="10" />
+    </p>
+
+    <p>
+      <label for="lettre">Biographie</label>
+      <textarea id="lettre" maxlength="500">
+
+        </textarea>
+    </p>
+
+    <input type="submit" value="Soumettre" />
+
+
+  </form>
+</body>
+
+</html>
